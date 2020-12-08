@@ -1,0 +1,72 @@
+body{
+   margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite; /*for body background color*/ 
+    border: 2px solid black; /*for  border color*/ 
+}
+
+.nav {
+    /*for header design color*/ 
+    background-color:grey;
+    display: flex;
+    padding: 16px 10px;
+    border-bottom: 2px solid black;
+    margin: 0px;
+	
+}
+
+.nav-link {
+    padding: 0px 10px;
+}
+
+.nav-right {
+    margin-right: auto;
+}
+
+.footer {
+    /*for footer design and color*/ 
+    background-color: grey;
+    text-align: center;
+    padding: 16px 10px;
+    border-top: 2px solid black;
+}
+
+
+.logo {
+    /*for logo position*/ 
+    text-decoration: none;
+    color: black;
+   
+}
+
+.btn-margin {
+    margin: 5px;
+}
+
+.form-wrapper{
+    /*for margin form*/ 
+    margin: 10% 40%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    /*sidebar design and color and marging*/ 
+    background-color: grey;
+    border-right: 2px solid black;
+    padding: 5px;
+}
+
+.mainbar{
+    /*for mainbar padding*/ 
+    padding: 20px;
+}
+
+.profile-wrapper {
+    /*For profile design*/ 
+    display: grid;
+    grid-template-columns: auto auto;
+}
